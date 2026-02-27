@@ -1,0 +1,47 @@
+# Virtual env
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Модели и данные
+models/
+merged_sweep/
+data/
+reported_eval_results/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Локальные БД
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db

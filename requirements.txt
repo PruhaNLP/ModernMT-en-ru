@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+sacrebleu
+safetensors
+tqdm
+gradio
+tensorboard
+requests
